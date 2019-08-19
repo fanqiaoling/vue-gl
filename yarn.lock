@@ -3670,10 +3670,10 @@ js-levenshtein@^1.1.3:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
-js-yaml@^3.13.0, js-yaml@~3.13.0:
-  version "3.13.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.0.tgz#38ee7178ac0eea2c97ff6d96fff4b18c7d8cf98e"
-  integrity sha512-pZZoSxcCYco+DIKBTimr67J6Hy+EYGZDY/HCWC+iAEA9h1ByhMXAIVUXMcMFpOCxQ/xjXmPI2MkDL5HRm5eFrQ==
+js-yaml@^3.13.0, js-yaml@^3.13.1:
+  version "3.13.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
+  integrity sha512-YfbcO7jXDdyj0DGxYVSlSeQNHbD7XPWvrVWeVUujrQEoZzWJIRrCPoyk6kL6IAjAG2IolMK4T0hNUe0HOUs5Jw==
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
@@ -3952,10 +3952,10 @@ markdown-escapes@^1.0.0:
   resolved "https://registry.yarnpkg.com/markdown-escapes/-/markdown-escapes-1.0.2.tgz#e639cbde7b99c841c0bacc8a07982873b46d2122"
   integrity sha512-lbRZ2mE3Q9RtLjxZBZ9+IMl68DKIXaVAhwvwn9pmjnPLS0h/6kyBMgNhqi1xFJ/2yv6cSyv0jbiZavZv93JkkA==
 
-markdown-it@8.4.2:
-  version "8.4.2"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-8.4.2.tgz#386f98998dc15a37722aa7722084f4020bdd9b54"
-  integrity sha512-GcRz3AWTqSUphY3vsUqQSFMbgR38a4Lh3GWlHRh/7MRwz8mcu9n2IO7HOh+bXHrR9kOPDl5RNCaEsrneb+xhHQ==
+markdown-it@9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-9.0.1.tgz#aafe363c43718720b6575fd10625cde6e4ff2d47"
+  integrity sha512-XC9dMBHg28Xi7y5dPuLjM61upIGPJG8AiHNHYqIaXER2KNnn7eKnM5/sF0ImNnyoV224Ogn9b1Pck8VH4k0bxw==
   dependencies:
     argparse "^1.0.7"
     entities "~1.1.1"
@@ -3979,28 +3979,28 @@ markdown-to-ast@^6.0.3:
     structured-source "^3.0.2"
     traverse "^0.6.6"
 
-markdownlint-cli@^0.14.0:
-  version "0.14.1"
-  resolved "https://registry.yarnpkg.com/markdownlint-cli/-/markdownlint-cli-0.14.1.tgz#8207f869f2d861858ea280861a94365cdcf6eb27"
-  integrity sha512-bHueUEp1NmSFPWvOk3SNWhRRAInrdvmuzlkMrZJptUF6jNXJ32OhPXicRw2xg43+NLiUI01V5sc1VIrRWLKgig==
+markdownlint-cli@^0.18.0:
+  version "0.18.0"
+  resolved "https://registry.yarnpkg.com/markdownlint-cli/-/markdownlint-cli-0.18.0.tgz#bd1cee72739049d42dcea5f6db0c0f57c6eb8096"
+  integrity sha512-mQ2zvjMLoy0P2kb9Y03SqC24WPH4fTRN0/CyCorB122c4Chg9vWJKgUKBz3KR7swpzqmlI0SYq/7Blbqe4kb2g==
   dependencies:
     commander "~2.9.0"
     deep-extend "~0.5.1"
     get-stdin "~5.0.1"
     glob "~7.1.2"
-    js-yaml "~3.13.0"
+    js-yaml "^3.13.1"
     lodash.differencewith "~4.5.0"
     lodash.flatten "~4.4.0"
-    markdownlint "~0.12.0"
+    markdownlint "~0.16.0"
     minimatch "~3.0.4"
     rc "~1.2.7"
 
-markdownlint@~0.12.0:
-  version "0.12.0"
-  resolved "https://registry.yarnpkg.com/markdownlint/-/markdownlint-0.12.0.tgz#998e0c22698a753c406f19b06c2375321a2b4fb0"
-  integrity sha512-bjur6ZP0yKHVYh1U5+xD+bVkouKiUyiVzg9c9qkytYRW2nDfSowifKSmpPeO0uZHxzZOYMcV2Oe7sycPOEqMOQ==
+markdownlint@~0.16.0:
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/markdownlint/-/markdownlint-0.16.0.tgz#69f73cc755a44231fbe5dc7c37a5909cedc0ac6e"
+  integrity sha512-Zo+iPezP3eM6lLhKepkUw+X98H44lipIdx4d6faaugfB0+7VuDB3R0hXmx7z9F1N3/ypn46oOFgAD9iF++Ie6A==
   dependencies:
-    markdown-it "8.4.2"
+    markdown-it "9.0.1"
 
 md-node-inject@^0.1.1:
   version "0.1.1"
